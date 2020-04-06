@@ -46,8 +46,8 @@ def adv_partitioner(k):
     global mapping
     map_key = k[0]
     hash_key =  k[1]
-    start_partition =  mapping_copy[map_key][1]
-    total_partitions = mapping_copy[map_key][2]
+    start_partition =  mapping[map_key][1]
+    total_partitions = mapping[map_key][2]
     distkey = int(hashlib.md5(hash_key.encode('utf-8')).hexdigest(), 16)
     partition_no = distkey % total_partitions
     return start_partition + partition_no
