@@ -1,0 +1,415 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh\nsudo /usr/bin/python3 -m pip install mlflow",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 02:42:18.888",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "text",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/text",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Collecting mlflow\n  Downloading mlflow-1.17.0-py3-none-any.whl (14.2 MB)\nCollecting cloudpickle\n  Downloading cloudpickle-1.6.0-py3-none-any.whl (23 kB)\nRequirement already satisfied: pytz in /usr/local/lib/python3.7/site-packages (from mlflow) (2020.1)\nCollecting databricks-cli\u003e\u003d0.8.7\n  Downloading databricks-cli-0.14.3.tar.gz (54 kB)\nCollecting alembic\u003c\u003d1.4.1\n  Downloading alembic-1.4.1.tar.gz (1.1 MB)\nRequirement already satisfied: pyyaml in /usr/local/lib64/python3.7/site-packages (from mlflow) (5.3.1)\nRequirement already satisfied: click\u003e\u003d7.0 in /usr/local/lib64/python3.7/site-packages (from mlflow) (7.1.2)\nCollecting querystring-parser\n  Downloading querystring_parser-1.2.4-py2.py3-none-any.whl (7.9 kB)\nCollecting gunicorn; platform_system !\u003d \"Windows\"\n  Downloading gunicorn-20.1.0-py3-none-any.whl (79 kB)\nCollecting protobuf\u003e\u003d3.6.0\n  Downloading protobuf-3.17.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)\nRequirement already satisfied: requests\u003e\u003d2.17.3 in /usr/local/lib/python3.7/site-packages (from mlflow) (2.24.0)\nCollecting entrypoints\n  Downloading entrypoints-0.3-py2.py3-none-any.whl (11 kB)\nCollecting gitpython\u003e\u003d2.1.0\n  Downloading GitPython-3.1.17-py3-none-any.whl (166 kB)\nCollecting Flask\n  Downloading Flask-2.0.1-py3-none-any.whl (94 kB)\nCollecting prometheus-flask-exporter\n  Downloading prometheus_flask_exporter-0.18.2.tar.gz (22 kB)\nCollecting docker\u003e\u003d4.0.0\n  Downloading docker-5.0.0-py2.py3-none-any.whl (146 kB)\nRequirement already satisfied: pandas in /usr/local/lib64/python3.7/site-packages (from mlflow) (1.1.3)\nCollecting sqlalchemy\n  Downloading SQLAlchemy-1.4.17-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.5 MB)\nCollecting sqlparse\u003e\u003d0.3.1\n  Downloading sqlparse-0.4.1-py3-none-any.whl (42 kB)\nRequirement already satisfied: numpy in /usr/local/lib64/python3.7/site-packages (from mlflow) (1.19.2)\nCollecting tabulate\u003e\u003d0.7.7\n  Downloading tabulate-0.8.9-py3-none-any.whl (25 kB)\nRequirement already satisfied: six\u003e\u003d1.10.0 in /usr/local/lib/python3.7/site-packages (from databricks-cli\u003e\u003d0.8.7-\u003emlflow) (1.13.0)\nCollecting Mako\n  Downloading Mako-1.1.4-py2.py3-none-any.whl (75 kB)\nCollecting python-editor\u003e\u003d0.3\n  Downloading python_editor-1.0.4-py3-none-any.whl (4.9 kB)\nRequirement already satisfied: python-dateutil in /usr/local/lib/python3.7/site-packages (from alembic\u003c\u003d1.4.1-\u003emlflow) (2.8.1)\nRequirement already satisfied: setuptools\u003e\u003d3.0 in /usr/local/lib/python3.7/site-packages (from gunicorn; platform_system !\u003d \"Windows\"-\u003emlflow) (47.1.0)\nRequirement already satisfied: idna\u003c3,\u003e\u003d2.5 in /usr/local/lib/python3.7/site-packages (from requests\u003e\u003d2.17.3-\u003emlflow) (2.10)\nRequirement already satisfied: certifi\u003e\u003d2017.4.17 in /usr/local/lib/python3.7/site-packages (from requests\u003e\u003d2.17.3-\u003emlflow) (2021.5.30)\nRequirement already satisfied: chardet\u003c4,\u003e\u003d3.0.2 in /usr/local/lib/python3.7/site-packages (from requests\u003e\u003d2.17.3-\u003emlflow) (3.0.4)\nRequirement already satisfied: urllib3!\u003d1.25.0,!\u003d1.25.1,\u003c1.26,\u003e\u003d1.21.1 in /usr/local/lib/python3.7/site-packages (from requests\u003e\u003d2.17.3-\u003emlflow) (1.25.11)\nCollecting typing-extensions\u003e\u003d3.7.4.0; python_version \u003c \"3.8\"\n  Downloading typing_extensions-3.10.0.0-py3-none-any.whl (26 kB)\nCollecting gitdb\u003c5,\u003e\u003d4.0.1\n  Downloading gitdb-4.0.7-py3-none-any.whl (63 kB)\nCollecting Werkzeug\u003e\u003d2.0\n  Downloading Werkzeug-2.0.1-py3-none-any.whl (288 kB)\nCollecting itsdangerous\u003e\u003d2.0\n  Downloading itsdangerous-2.0.1-py3-none-any.whl (18 kB)\nCollecting Jinja2\u003e\u003d3.0\n  Downloading Jinja2-3.0.1-py3-none-any.whl (133 kB)\nCollecting prometheus_client\n  Downloading prometheus_client-0.11.0-py2.py3-none-any.whl (56 kB)\nCollecting websocket-client\u003e\u003d0.32.0\n  Downloading websocket_client-1.0.1-py2.py3-none-any.whl (68 kB)\nCollecting greenlet!\u003d0.4.17; python_version \u003e\u003d \"3\"\n  Downloading greenlet-1.1.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (160 kB)\nCollecting importlib-metadata; python_version \u003c \"3.8\"\n  Downloading importlib_metadata-4.5.0-py3-none-any.whl (17 kB)\nCollecting MarkupSafe\u003e\u003d0.9.2\n  Downloading MarkupSafe-2.0.1-cp37-cp37m-manylinux2010_x86_64.whl (31 kB)\nCollecting smmap\u003c5,\u003e\u003d3.0.1\n  Downloading smmap-4.0.0-py2.py3-none-any.whl (24 kB)\nCollecting zipp\u003e\u003d0.5\n  Downloading zipp-3.4.1-py3-none-any.whl (5.2 kB)\nUsing legacy setup.py install for databricks-cli, since package \u0027wheel\u0027 is not installed.\nUsing legacy setup.py install for alembic, since package \u0027wheel\u0027 is not installed.\nUsing legacy setup.py install for prometheus-flask-exporter, since package \u0027wheel\u0027 is not installed.\nInstalling collected packages: cloudpickle, tabulate, databricks-cli, greenlet, typing-extensions, zipp, importlib-metadata, sqlalchemy, MarkupSafe, Mako, python-editor, alembic, querystring-parser, gunicorn, protobuf, entrypoints, smmap, gitdb, gitpython, Werkzeug, itsdangerous, Jinja2, Flask, prometheus-client, prometheus-flask-exporter, websocket-client, docker, sqlparse, mlflow\n  WARNING: The script tabulate is installed in \u0027/usr/local/bin\u0027 which is not on PATH.\n  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\n    Running setup.py install for databricks-cli: started\n    Running setup.py install for databricks-cli: finished with status \u0027done\u0027\n  WARNING: The script mako-render is installed in \u0027/usr/local/bin\u0027 which is not on PATH.\n  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\n    Running setup.py install for alembic: started\n    Running setup.py install for alembic: finished with status \u0027done\u0027\n  WARNING: The script gunicorn is installed in \u0027/usr/local/bin\u0027 which is not on PATH.\n  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\n  WARNING: The script flask is installed in \u0027/usr/local/bin\u0027 which is not on PATH.\n  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\n    Running setup.py install for prometheus-flask-exporter: started\n    Running setup.py install for prometheus-flask-exporter: finished with status \u0027done\u0027\n  WARNING: The script sqlformat is installed in \u0027/usr/local/bin\u0027 which is not on PATH.\n  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\n  WARNING: The script mlflow is installed in \u0027/usr/local/bin\u0027 which is not on PATH.\n  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.\nSuccessfully installed Flask-2.0.1 Jinja2-3.0.1 Mako-1.1.4 MarkupSafe-2.0.1 Werkzeug-2.0.1 alembic-1.4.1 cloudpickle-1.6.0 databricks-cli-0.14.3 docker-5.0.0 entrypoints-0.3 gitdb-4.0.7 gitpython-3.1.17 greenlet-1.1.0 gunicorn-20.1.0 importlib-metadata-4.5.0 itsdangerous-2.0.1 mlflow-1.17.0 prometheus-client-0.11.0 prometheus-flask-exporter-0.18.2 protobuf-3.17.2 python-editor-1.0.4 querystring-parser-1.2.4 smmap-4.0.0 sqlalchemy-1.4.17 sqlparse-0.4.1 tabulate-0.8.9 typing-extensions-3.10.0.0 websocket-client-1.0.1 zipp-3.4.1\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622760714879_1035860534",
+      "id": "paragraph_1622760714879_1035860534",
+      "dateCreated": "2021-06-03 22:51:54.879",
+      "dateStarted": "2021-06-06 02:42:18.985",
+      "dateFinished": "2021-06-06 02:42:29.214",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\nimport sys\nsys.version_info ",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 02:40:18.379",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "sys.version_info(major\u003d2, minor\u003d7, micro\u003d18, releaselevel\u003d\u0027final\u0027, serial\u003d0)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622784346511_607353589",
+      "id": "paragraph_1622784346511_607353589",
+      "dateCreated": "2021-06-04 05:25:46.512",
+      "dateStarted": "2021-06-06 02:40:18.507",
+      "dateFinished": "2021-06-06 02:40:19.797",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\nimport mlflow\nimport sklearn\nimport numpy as np\n\n#mlflow.set_tracking_uri(\"https://fip-mlflow-production.internal.adroll.com\")\n\nmlflow.set_experiment(\"mlflow_test\")\nprint(\"started\")\nwith mlflow.start_run(run_name\u003d\"mlflow_run_test1\") as run:\n    from sklearn.linear_model import LogisticRegression\n    import mlflow.sklearn\n    import random\n\n    #(\"mlflow.source.git.commit\", \"ver\")\n    mlflow.log_metric(\"custom_metric2\", random.random())\n    mlflow.log_metric(\"sdada\", random.random())\n    mlflow.log_metric(\"my_custom_metric\", random.random())\n    X \u003d np.array([-2, -1, 0, 1, 2, 1]).reshape(-1, 1)\n    y \u003d np.array([0, 0, 1, 1, 1, 0])\n    lr \u003d LogisticRegression()\n    lr.fit(X, y)\n    score \u003d lr.score(X, y)\n    print(\"Score: %s\" % score)\n    mlflow.log_metric(\"score\", score)\n    print(\"Model saved in run %s\" % mlflow.active_run().info.run_uuid)",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-05 06:36:04.982",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "started\nLogisticRegression()\nScore: 0.6666666666666666\nModel saved in run 7a3601826a4641c1aff8c6e4d2ebf4e5\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622784344986_490385837",
+      "id": "paragraph_1622784344986_490385837",
+      "dateCreated": "2021-06-04 05:25:44.986",
+      "dateStarted": "2021-06-05 06:30:29.651",
+      "dateFinished": "2021-06-05 06:30:29.865",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\nclient \u003d mlflow.tracking.MlflowClient()\nclient.get_run(\"7433fe2ea4e04d1b8a425fccf49ddec9\").data\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-05 06:30:49.953",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u003cRunData: metrics\u003d{\u0027custom_metric2\u0027: 0.8699980418289056,\n \u0027my_custom_metric\u0027: 0.9614786080231619,\n \u0027score\u0027: 0.6666666666666666,\n \u0027sdada\u0027: 0.09015199981273436}, params\u003d{}, tags\u003d{\u0027mlflow.runName\u0027: \u0027mlflow_run_test1\u0027,\n \u0027mlflow.source.name\u0027: \u0027/tmp/1622872312274-0/zeppelin_python.py\u0027,\n \u0027mlflow.source.type\u0027: \u0027LOCAL\u0027,\n \u0027mlflow.user\u0027: \u0027root\u0027}\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622764377484_2099869773",
+      "id": "paragraph_1622764377484_2099869773",
+      "dateCreated": "2021-06-03 23:52:57.484",
+      "dateStarted": "2021-06-05 06:07:45.717",
+      "dateFinished": "2021-06-05 06:07:45.729",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\nclient.rename_experiment(\"24\", \"zeppelin_test\")",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-05 06:35:35.938",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622874866067_1071903787",
+      "id": "paragraph_1622874866067_1071903787",
+      "dateCreated": "2021-06-05 06:34:26.067",
+      "dateStarted": "2021-06-05 06:35:35.997",
+      "dateFinished": "2021-06-05 06:35:36.034",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\n\nimport mlflow\nimport pandas as pd\nfrom tabulate import tabulate\n\nclient \u003d mlflow.tracking.MlflowClient()\nprint(\"MLflow Version:\", mlflow.version.VERSION)\nprint(\"MLflow Tracking URI:\", mlflow.get_tracking_uri())\n\nexps \u003d client.list_experiments()\nprint(\"Found {} experiments\".format(len(exps)))\n\nlist \u003d [(exp.experiment_id, exp.name) for exp in exps ]\ndf \u003d pd.DataFrame(list,columns\u003d[\"experiment_id\",\"name\"])\n\n\nprint(tabulate(df, headers\u003d\u0027keys\u0027, tablefmt\u003d\u0027psql\u0027))",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 02:44:31.979",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "MLflow Version: 1.17.0\nMLflow Tracking URI: https://fip-mlflow-production.internal.adroll.com\nFound 13 experiments\n+----+-----------------+----------------------------+\n|    |   experiment_id | name                       |\n|----+-----------------+----------------------------|\n|  0 |               8 | local_run                  |\n|  1 |               9 | test2                      |\n|  2 |              12 | remarketing_shopify2       |\n|  3 |              13 | remarketing_shopify3       |\n|  4 |              14 | remarketing_shopify4       |\n|  5 |              16 | remarketing_shopify5       |\n|  6 |              18 | my_experiment              |\n|  7 |              19 | test_new_exp_name          |\n|  8 |              20 | ryoma_test                 |\n|  9 |              21 | max_metrics_test           |\n| 10 |              22 | marco_test                 |\n| 11 |              23 | local_pyspark_package_test |\n| 12 |              24 | zeppelin_test              |\n+----+-----------------+----------------------------+\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622789986728_231594851",
+      "id": "paragraph_1622789986728_231594851",
+      "dateCreated": "2021-06-04 06:59:46.728",
+      "dateStarted": "2021-06-06 02:44:32.077",
+      "dateFinished": "2021-06-06 02:44:35.022",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%python\nimport mlflow\nmlflow.get_tracking_uri()\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-05 06:29:57.738",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "\u0027https://fip-mlflow-production.internal.adroll.com\u0027\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622788405351_2141934127",
+      "id": "paragraph_1622788405351_2141934127",
+      "dateCreated": "2021-06-04 06:33:25.351",
+      "dateStarted": "2021-06-05 06:29:57.770",
+      "dateFinished": "2021-06-05 06:29:57.780",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\ncd /tmp\ngit clone https://github.com/eljur/spark_partitioning.git",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 03:08:28.023",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Cloning into \u0027spark_partitioning\u0027...\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622824069119_1943817284",
+      "id": "paragraph_1622824069119_1943817284",
+      "dateCreated": "2021-06-04 16:27:49.119",
+      "dateStarted": "2021-06-06 03:08:28.086",
+      "dateFinished": "2021-06-06 03:08:28.396",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\ngit remote add origin git@github.com:SemanticSugar/fip.git",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 03:01:23.911",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "fatal: not a git repository (or any of the parent directories): .git\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "ExitValue: 128"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622867494014_1325322851",
+      "id": "paragraph_1622867494014_1325322851",
+      "dateCreated": "2021-06-05 04:31:34.014",
+      "dateStarted": "2021-06-06 03:01:24.009",
+      "dateFinished": "2021-06-06 03:01:24.025",
+      "status": "ERROR"
+    },
+    {
+      "text": "%sh\ncd /mnt/tmp/spark_partitioning \u0026\u0026 git status",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 03:17:43.340",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "On branch master\nYour branch is up to date with \u0027origin/master\u0027.\n\nnothing to commit, working tree clean\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622948395004_2105197439",
+      "id": "paragraph_1622948395004_2105197439",
+      "dateCreated": "2021-06-06 02:59:55.004",
+      "dateStarted": "2021-06-06 03:17:43.406",
+      "dateFinished": "2021-06-06 03:17:43.417",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\nls /var/lib/zeppelin/notebook",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 03:20:39.378",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622948938034_1076052702",
+      "id": "paragraph_1622948938034_1076052702",
+      "dateCreated": "2021-06-06 03:08:58.034",
+      "dateStarted": "2021-06-06 03:20:39.409",
+      "dateFinished": "2021-06-06 03:20:39.422",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 03:19:52.206",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622949592206_428987209",
+      "id": "paragraph_1622949592206_428987209",
+      "dateCreated": "2021-06-06 03:19:52.206",
+      "status": "READY"
+    }
+  ],
+  "name": "mlflow",
+  "id": "2GA8J7HU1",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.9.0-preview2",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {}
+}
