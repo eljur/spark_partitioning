@@ -1,0 +1,155 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh\ngit status\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 17:35:31.576",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "fatal: not a git repository (or any of the parent directories): .git\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "ExitValue: 128"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622999755318_1537771432",
+      "id": "paragraph_1622999755318_1537771432",
+      "dateCreated": "2021-06-06 17:15:55.318",
+      "dateStarted": "2021-06-06 17:35:31.580",
+      "dateFinished": "2021-06-06 17:35:31.609",
+      "status": "ERROR"
+    },
+    {
+      "text": "%sh\ngit add ../test3_2G71M644S.zpln\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 17:17:31.255",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622999827566_785254719",
+      "id": "paragraph_1622999827566_785254719",
+      "dateCreated": "2021-06-06 17:17:07.566",
+      "dateStarted": "2021-06-06 17:17:31.258",
+      "dateFinished": "2021-06-06 17:17:31.284",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\ngit commit -m \"pushing from zepplin\" \u0026\u0026 git push",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 17:19:03.532",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[master 52a4339] pushing from zepplin\n Committer: root \u003croot@ip-172-18-86-23.us-west-2.compute.internal\u003e\nYour name and email address were configured automatically based\non your username and hostname. Please check that they are accurate.\nYou can suppress this message by setting them explicitly. Run the\nfollowing command and follow the instructions in your editor to edit\nyour configuration file:\n\n    git config --global --edit\n\nAfter doing this, you may fix the identity used for this commit with:\n\n    git commit --amend --reset-author\n\n 1 file changed, 55 insertions(+), 1 deletion(-)\nfatal: No configured push destination.\nEither specify the URL from the command-line or configure a remote repository using\n\n    git remote add \u003cname\u003e \u003curl\u003e\n\nand then push using the remote name\n\n    git push \u003cname\u003e\n\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "ExitValue: 128"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622999851257_177593120",
+      "id": "paragraph_1622999851257_177593120",
+      "dateCreated": "2021-06-06 17:17:31.257",
+      "dateStarted": "2021-06-06 17:19:03.535",
+      "dateFinished": "2021-06-06 17:19:03.581",
+      "status": "ERROR"
+    },
+    {
+      "text": "%sh\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 17:19:03.534",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1622999943534_1307020557",
+      "id": "paragraph_1622999943534_1307020557",
+      "dateCreated": "2021-06-06 17:19:03.534",
+      "status": "READY"
+    }
+  ],
+  "name": "test3",
+  "id": "2G71M644S",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.9.0-preview2",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
