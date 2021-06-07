@@ -265,9 +265,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%sh\ncd /tmp/spark_partitioning\ngit pop\ngit add .\ngit commit -m \"committing from the note\"\ngit push --set-upstream origin master",
+      "text": "%sh\ncd /tmp/spark_partitioning\ngit stash pop\ngit add .\ngit commit -m \"committing from the note\"\ngit push --set-upstream origin master",
       "user": "anonymous",
-      "dateUpdated": "2021-06-07 03:36:47.949",
+      "dateUpdated": "2021-06-07 03:37:11.285",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -286,11 +286,15 @@
         "forms": {}
       },
       "results": {
-        "code": "SUCCESS",
+        "code": "ERROR",
         "msg": [
           {
             "type": "TEXT",
-            "data": "On branch master\nYour branch is up to date with \u0027origin/master\u0027.\n\nChanges not staged for commit:\n  (use \"git add \u003cfile\u003e...\" to update what will be committed)\n  (use \"git restore \u003cfile\u003e...\" to discard changes in working directory)\n\tmodified:   spark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+            "data": "git: \u0027pop\u0027 is not a git command. See \u0027git --help\u0027.\n\nThe most similar command is\n\tlog\n[master f72c1df] committing from the note\n Committer: root \u003croot@ip-172-18-86-23.us-west-2.compute.internal\u003e\nYour name and email address were configured automatically based\non your username and hostname. Please check that they are accurate.\nYou can suppress this message by setting them explicitly:\n\n    git config --global user.name \"Your Name\"\n    git config --global user.email you@example.com\n\nAfter doing this, you may fix the identity used for this commit with:\n\n    git commit --amend --reset-author\n\n 1 file changed, 12 insertions(+), 16 deletions(-)\nfatal: could not read Username for \u0027https://github.com\u0027: Input/output error\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "ExitValue: 128"
           }
         ]
       },
@@ -300,9 +304,9 @@
       "jobName": "paragraph_1623035443278_754645400",
       "id": "paragraph_1623035443278_754645400",
       "dateCreated": "2021-06-07 03:10:43.280",
-      "dateStarted": "2021-06-07 03:36:04.011",
-      "dateFinished": "2021-06-07 03:36:04.047",
-      "status": "FINISHED"
+      "dateStarted": "2021-06-07 03:36:47.951",
+      "dateFinished": "2021-06-07 03:36:48.103",
+      "status": "ERROR"
     },
     {
       "text": "%sh\n",
