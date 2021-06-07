@@ -225,53 +225,9 @@
       "status": "FINISHED"
     },
     {
-      "text": "%sh\ncd /tmp/spark_partitioning \u0026\u0026 git stash \u0026\u0026 git fetch \u0026\u0026 git rebase",
+      "text": "%sh\ncd /tmp/spark_partitioning\ngit fetch\ngit stash\ngit rebase\n",
       "user": "anonymous",
-      "dateUpdated": "2021-06-07 03:17:12.631",
-      "config": {
-        "colWidth": 12.0,
-        "fontSize": 9.0,
-        "enabled": true,
-        "results": {},
-        "editorSetting": {
-          "language": "sh",
-          "editOnDblClick": false,
-          "completionKey": "TAB",
-          "completionSupport": false
-        },
-        "editorMode": "ace/mode/sh"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "results": {
-        "code": "ERROR",
-        "msg": [
-          {
-            "type": "TEXT",
-            "data": "Saved working directory and index state WIP on master: 4914b4a testing\nerror: cannot rebase: You have unstaged changes.\nerror: Please commit or stash them.\n"
-          },
-          {
-            "type": "TEXT",
-            "data": "ExitValue: 1"
-          }
-        ]
-      },
-      "apps": [],
-      "runtimeInfos": {},
-      "progressUpdateIntervalMs": 500,
-      "jobName": "paragraph_1623035149670_2027741336",
-      "id": "paragraph_1623035149670_2027741336",
-      "dateCreated": "2021-06-07 03:05:49.670",
-      "dateStarted": "2021-06-07 03:17:12.637",
-      "dateFinished": "2021-06-07 03:17:12.970",
-      "status": "ERROR"
-    },
-    {
-      "text": "%sh\ncd /tmp/spark_partitioning \u0026\u0026 git status",
-      "user": "anonymous",
-      "dateUpdated": "2021-06-07 03:23:16.656",
+      "dateUpdated": "2021-06-07 03:35:39.338",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -294,7 +250,47 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "On branch master\nYour branch is ahead of \u0027origin/master\u0027 by 2 commits.\n  (use \"git push\" to publish your local commits)\n\nChanges to be committed:\n  (use \"git restore --staged \u003cfile\u003e...\" to unstage)\n\tmodified:   spark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln\n\nChanges not staged for commit:\n  (use \"git add \u003cfile\u003e...\" to update what will be committed)\n  (use \"git restore \u003cfile\u003e...\" to discard changes in working directory)\n\tmodified:   spark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln\n\n"
+            "data": "Saved working directory and index state WIP on master: c9b8d9e commit everything\nFirst, rewinding head to replay your work on top of it...\nFast-forwarded master to refs/remotes/origin/master.\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1623035149670_2027741336",
+      "id": "paragraph_1623035149670_2027741336",
+      "dateCreated": "2021-06-07 03:05:49.670",
+      "dateStarted": "2021-06-07 03:35:39.339",
+      "dateFinished": "2021-06-07 03:35:39.544",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\ncd /tmp/spark_partitioning\ngit pop\ngit add .\ngit commit -m \"committing from the note\"\ngit push --set-upstream origin master",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-07 03:36:47.949",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "On branch master\nYour branch is up to date with \u0027origin/master\u0027.\n\nChanges not staged for commit:\n  (use \"git add \u003cfile\u003e...\" to update what will be committed)\n  (use \"git restore \u003cfile\u003e...\" to discard changes in working directory)\n\tmodified:   spark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
           }
         ]
       },
@@ -304,8 +300,8 @@
       "jobName": "paragraph_1623035443278_754645400",
       "id": "paragraph_1623035443278_754645400",
       "dateCreated": "2021-06-07 03:10:43.280",
-      "dateStarted": "2021-06-07 03:23:16.661",
-      "dateFinished": "2021-06-07 03:23:16.698",
+      "dateStarted": "2021-06-07 03:36:04.011",
+      "dateFinished": "2021-06-07 03:36:04.047",
       "status": "FINISHED"
     },
     {
