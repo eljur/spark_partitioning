@@ -269,9 +269,9 @@
       "status": "ERROR"
     },
     {
-      "text": "%sh\ncd /tmp/spark_partitioning \u0026\u0026 git add spark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln \u0026\u0026 git commit -m \"new commti\"",
+      "text": "%sh\ncd /tmp/spark_partitioning \u0026\u0026 git add spark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln",
       "user": "anonymous",
-      "dateUpdated": "2021-06-07 03:18:05.831",
+      "dateUpdated": "2021-06-07 03:19:28.531",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -294,7 +294,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "On branch master\nYour branch is up to date with \u0027origin/master\u0027.\n\nChanges not staged for commit:\n  (use \"git add \u003cfile\u003e...\" to update what will be committed)\n  (use \"git restore \u003cfile\u003e...\" to discard changes in working directory)\n\tmodified:   spark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+            "data": "On branch master\nYour branch is ahead of \u0027origin/master\u0027 by 1 commit.\n  (use \"git push\" to publish your local commits)\n\nChanges not staged for commit:\n  (use \"git add \u003cfile\u003e...\" to update what will be committed)\n  (use \"git restore \u003cfile\u003e...\" to discard changes in working directory)\n\tmodified:   spark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
           }
         ]
       },
@@ -304,8 +304,8 @@
       "jobName": "paragraph_1623035443278_754645400",
       "id": "paragraph_1623035443278_754645400",
       "dateCreated": "2021-06-07 03:10:43.280",
-      "dateStarted": "2021-06-07 03:17:27.331",
-      "dateFinished": "2021-06-07 03:17:27.345",
+      "dateStarted": "2021-06-07 03:19:09.462",
+      "dateFinished": "2021-06-07 03:19:09.476",
       "status": "FINISHED"
     },
     {
