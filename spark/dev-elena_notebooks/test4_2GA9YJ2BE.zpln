@@ -1,0 +1,114 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh\ncd /tmp/spark_partitioning \u0026\u0026 git status",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-06 17:49:23.178",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "On branch master\nYour branch is ahead of \u0027origin/master\u0027 by 2 commits.\n  (use \"git push\" to publish your local commits)\n\nChanges not staged for commit:\n  (use \"git add \u003cfile\u003e...\" to update what will be committed)\n  (use \"git restore \u003cfile\u003e...\" to discard changes in working directory)\n\tmodified:   pxl_partiitoner_python.py\n\tmodified:   spark/dev-elena_notebooks/2GA8J7HU1/note.zpln\n\nUntracked files:\n  (use \"git add \u003cfile\u003e...\" to include in what will be committed)\n\tspark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln\n\tspark/dev-elena_notebooks/test_2G7SRD8FG.zpln\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1623001009499_2093974835",
+      "id": "paragraph_1623001009499_2093974835",
+      "dateCreated": "2021-06-06 17:36:49.499",
+      "dateStarted": "2021-06-06 17:49:23.181",
+      "dateFinished": "2021-06-06 17:49:23.202",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sh\ncd /tmp/spark_partitioning \u0026\u0026 git status \u0026\u0026 git add spark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln \u0026\u0026 git commit -m \"testing\" \u0026\u0026 git push",
+      "user": "anonymous",
+      "dateUpdated": "2021-06-07 02:32:56.226",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "On branch master\nYour branch is ahead of \u0027origin/master\u0027 by 2 commits.\n  (use \"git push\" to publish your local commits)\n\nChanges not staged for commit:\n  (use \"git add \u003cfile\u003e...\" to update what will be committed)\n  (use \"git restore \u003cfile\u003e...\" to discard changes in working directory)\n\tmodified:   pxl_partiitoner_python.py\n\tmodified:   spark/dev-elena_notebooks/2GA8J7HU1/note.zpln\n\nUntracked files:\n  (use \"git add \u003cfile\u003e...\" to include in what will be committed)\n\tspark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln\n\tspark/dev-elena_notebooks/test_2G7SRD8FG.zpln\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\nOn branch master\nYour branch is ahead of \u0027origin/master\u0027 by 2 commits.\n  (use \"git push\" to publish your local commits)\n\nChanges not staged for commit:\n\tmodified:   pxl_partiitoner_python.py\n\tmodified:   spark/dev-elena_notebooks/2GA8J7HU1/note.zpln\n\nUntracked files:\n\tspark/dev-elena_notebooks/test4_2GA9YJ2BE.zpln\n\tspark/dev-elena_notebooks/test_2G7SRD8FG.zpln\n\nno changes added to commit\n"
+          },
+          {
+            "type": "TEXT",
+            "data": "ExitValue: 1"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1623001039754_1479017111",
+      "id": "paragraph_1623001039754_1479017111",
+      "dateCreated": "2021-06-06 17:37:19.754",
+      "dateStarted": "2021-06-07 02:32:14.862",
+      "dateFinished": "2021-06-07 02:32:16.154",
+      "status": "ERROR"
+    },
+    {
+      "user": "anonymous",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1623001015363_1760733726",
+      "id": "paragraph_1623001015363_1760733726",
+      "dateCreated": "2021-06-06 17:36:55.363",
+      "status": "READY"
+    }
+  ],
+  "name": "test4",
+  "id": "2GA9YJ2BE",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.9.0-preview2",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}
